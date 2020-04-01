@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/personal/personal",
+    "pages/destination/destination",
+    "pages/login/login",
+    "pages/feedback/feedback",
+    "pages/settings/settings",
+    "pages/detail/detail",
+    "pages/home/home",
+    "pages/product/product",
+    "pages/bmfind/bmfind",
+    "pages/search/searchMain/searchMain",
+    "components/find-items/find-item",
+    "pages/findDetail/findDetail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "斑马旅游官网"
+  },
+  "tabBar": {
+    "color": "#7d7e80",
+    "selectedColor": "#C04374",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "/image/home.png",
+        "selectedIconPath": "/image/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/destination/destination",
+        "iconPath": "/image/add.png",
+        "selectedIconPath": "/image/add-active.png",
+        "text": "目的地"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "iconPath": "/image/dingzhi.png",
+        "selectedIconPath": "/image/dingzhi.png",
+        "text": "定制游"
+      },
+      {
+        "pagePath": "pages/bmfind/bmfind",
+        "iconPath": "/image/search.png",
+        "selectedIconPath": "/image/search-active.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "/image/my.png",
+        "selectedIconPath": "/image/my-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap57.json"
+}
